@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "ironwolfarmor",
+  "version": "26.1.2.0",
+  "name": "IronWolfArmor",
+  "description": "Protect your pets with new tiers of wolf armor!",
+  "authors": [
+    "Darkhax"
+  ],
+  "contributors": [
+    "This project is made possible with Patreon support from players like you. Thank you!",
+    "lothrazar, techsquirrel, Keyana , Darkosto, Tobias Ward, noobanidus"
+  ],
+  "contact": {
+    "sources": "https://github.com/Darkhax-Minecraft/Iron-Wolf-Armor",
+    "issues": "https://github.com/Darkhax-Minecraft/Iron-Wolf-Armor/issues",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/iron-wolf-armor"
+  },
+  "license": "All Rights Reserved",
+  "icon": "logo_ironwolfarmor.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.darkhax.ironwolfarmor.fabric.IronWolfArmorFabric"
+    ]
+  },
+  "mixins": [
+    "ironwolfarmor.common.mixins.json",
+    "ironwolfarmor.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.6",
+    "fabric-api": "*",
+    "minecraft": ">=26.1",
+    "java": ">=25",
+    "bookshelf": "*",
+    "prickle": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/iron-wolf-armor",
+        "modmenu.modrinth": "https://modrinth.com/mod/iron-wolf-armor"
+      }
+    }
+  }
+}

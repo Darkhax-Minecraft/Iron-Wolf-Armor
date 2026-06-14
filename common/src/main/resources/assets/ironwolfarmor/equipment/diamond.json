@@ -1,0 +1,13 @@
+{
+  "layers": {
+    "wolf_body": [
+      {
+        "texture": "ironwolfarmor:diamond"
+      },
+      {
+        "dyeable": {},
+        "texture": "ironwolfarmor:color_overlay"
+      }
+    ]
+  }
+}

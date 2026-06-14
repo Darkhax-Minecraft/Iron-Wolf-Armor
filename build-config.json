@@ -1,0 +1,63 @@
+{
+  "mod": {
+    "name": "IronWolfArmor",
+    "group": "net.darkhax.ironwolfarmor",
+    "authors": [
+      "Darkhax"
+    ],
+    "id": "ironwolfarmor",
+    "license": "All Rights Reserved",
+    "description": "Give your loyal companions the protection they deserve with new tiers of armor!",
+    "repo": "https://github.com/Darkhax-Minecraft/Iron-Wolf-Armor"
+  },
+  "curseforge": {
+    "slug": "iron-wolf-armor",
+    "id": "963404"
+  },
+  "modrinth": {
+    "slug": "iron-wolf-armor",
+    "id": "I4oovMTk"
+  },
+  "dependencies": [
+    {
+      "name": "Bookshelf",
+      "type": "required",
+      "mod_id": {
+        "id": "bookshelf"
+      },
+      "maven": {
+        "common": "net.darkhax.bookshelf:bookshelf-common-26.1.2:26.1.2.9",
+        "neoforge": "net.darkhax.bookshelf:bookshelf-neoforge-26.1.2:26.1.2.9",
+        "fabric": "net.darkhax.bookshelf:bookshelf-fabric-26.1.2:26.1.2.9"
+      },
+      "curseforge": {
+        "slug": "bookshelf",
+        "id": "228525"
+      },
+      "modrinth": {
+        "slug": "bookshelf-lib",
+        "id": "uy4Cnpcm"
+      }
+    },
+    {
+      "name": "Prickle",
+      "type": "required",
+      "mod_id": {
+        "id": "prickle"
+      },
+      "maven": {
+        "common": "net.darkhax.pricklemc:prickle-common-26.1.2:26.1.2.1",
+        "neoforge": "net.darkhax.pricklemc:prickle-neoforge-26.1.2:26.1.2.1",
+        "fabric": "net.darkhax.pricklemc:prickle-fabric-26.1.2:26.1.2.1"
+      },
+      "curseforge": {
+        "slug": "prickle",
+        "id": "1023259"
+      },
+      "modrinth": {
+        "slug": "prickle",
+        "id": "aaRl8GiW"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ironwolfarmor:item/iron_wolf_armor"
+  }
+}

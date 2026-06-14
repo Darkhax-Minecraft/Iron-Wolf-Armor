@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "H  ",
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "H": "minecraft:copper_helmet",
+    "X": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "ironwolfarmor:copper_wolf_armor"
+  }
+}

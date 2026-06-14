@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "ironwolfarmor:leather_wolf_armor",
+    "ironwolfarmor:copper_wolf_armor",
+    "ironwolfarmor:chainmail_wolf_armor",
+    "ironwolfarmor:iron_wolf_armor",
+    "ironwolfarmor:gold_wolf_armor",
+    "ironwolfarmor:diamond_wolf_armor",
+    "ironwolfarmor:netherite_wolf_armor"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "H  ",
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "H": "minecraft:leather_helmet",
+    "X": "minecraft:leather"
+  },
+  "result": {
+    "id": "ironwolfarmor:leather_wolf_armor"
+  }
+}

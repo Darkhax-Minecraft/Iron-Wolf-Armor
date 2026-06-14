@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "H  ",
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "H": "minecraft:chainmail_helmet",
+    "X": "minecraft:iron_chain"
+  },
+  "result": {
+    "id": "ironwolfarmor:chainmail_wolf_armor"
+  }
+}

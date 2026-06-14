@@ -1,0 +1,50 @@
+modLoader = "javafml"
+license = "All Rights Reserved"
+issueTrackerURL = "https://github.com/Darkhax-Minecraft/Iron-Wolf-Armor/issues"
+
+[[mods]]
+modId = "ironwolfarmor"
+version = "26.1.2.0"
+displayName = "IronWolfArmor"
+updateJSONURL = "https://updates.blamejared.com/get?n=ironwolfarmor&gv=26.1.2&ml=neoforge"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/iron-wolf-armor"
+logoFile = "logo_ironwolfarmor.png"
+logoBlur = false
+credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Keyana , Darkosto, Tobias Ward, noobanidus"
+authors = "Darkhax"
+description = "Protect your pets with new tiers of wolf armor!"
+
+[[mixins]]
+config = "ironwolfarmor.common.mixins.json"
+
+[[mixins]]
+config = "ironwolfarmor.neoforge.mixins.json"
+
+[[dependencies.ironwolfarmor]]
+modId = "minecraft"
+type = "required"
+versionRange = "26.1"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ironwolfarmor]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1.0.1-beta,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ironwolfarmor]]
+modId = "bookshelf"
+type = "required"
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ironwolfarmor]]
+modId = "prickle"
+type = "required"
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"
+
