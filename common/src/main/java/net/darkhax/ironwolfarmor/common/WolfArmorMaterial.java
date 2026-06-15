@@ -29,7 +29,7 @@ public class WolfArmorMaterial {
     public final TagKey<Item> repairItem;
     public final CachedSupplier<Item> item = CachedSupplier.cache(this::findItem);
 
-    @Value(comment = "The amount of armor points provided by the armor.")
+    @Value(comment = "The amount of armor points provided by the armor. Keep in mind, wolf armor always absorbs 100% of damage done to wolves from non-armor bypassing damage sources.")
     @RangedInt(min = 0)
     public int armor;
 
@@ -85,7 +85,7 @@ public class WolfArmorMaterial {
     }
 
     public static WolfArmorMaterial create(String materialName, int armor, int toughness, int knockback_resistance, int enchantability, int durability, TagKey<Item> repair) {
-        WolfArmorMaterial config = new WolfArmorMaterial(materialName, armor, toughness, knockback_resistance, enchantability, ArmorType.BODY.getDurability(durability), repair);
+        WolfArmorMaterial config = new WolfArmorMaterial(materialName, armor, toughness, knockback_resistance, enchantability, durability, repair);
         config = ConfigManager.load(IronWolfArmor.MOD_ID + "/materials/" + materialName, config);
         MATERIALS.put(materialName, config);
         return config;
