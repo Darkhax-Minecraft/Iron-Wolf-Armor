@@ -77,6 +77,9 @@ public class WolfArmorMaterial {
         else if ("netherite".equals(this.name)) {
             properties = properties.fireResistant();
         }
+        if (this.enchantability > 0) {
+            properties.enchantable(this.enchantability);
+        }
         return properties;
     }
 
