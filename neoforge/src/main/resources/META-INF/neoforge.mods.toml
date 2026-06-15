@@ -12,7 +12,7 @@ logoFile = "logo_ironwolfarmor.png"
 logoBlur = false
 credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Keyana , Darkosto, Tobias Ward, noobanidus"
 authors = "Darkhax"
-description = "Protect your pets with new tiers of wolf armor!"
+description = "Give your loyal companions the protection they deserve with new tiers of armor!"
 
 [[mixins]]
 config = "ironwolfarmor.common.mixins.json"

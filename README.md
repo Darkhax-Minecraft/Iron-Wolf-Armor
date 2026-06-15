@@ -3,7 +3,7 @@
 <!-- name-end -->
 
 <!-- description-start -->
-This is the official GitHub repo for the IronWolfArmor mod. Protect your pets with new tiers of wolf armor! You can download this mod from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/iron-wolf-armor) or [Modrinth](https://modrinth.com/mod/iron-wolf-armor). Please report issues [here](https://github.com/Darkhax-Minecraft/Iron-Wolf-Armor/issues).
+This is the official GitHub repo for the IronWolfArmor mod. Give your loyal companions the protection they deserve with new tiers of armor! You can download this mod from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/iron-wolf-armor) or [Modrinth](https://modrinth.com/mod/iron-wolf-armor). Please report issues [here](https://github.com/Darkhax-Minecraft/Iron-Wolf-Armor/issues).
 <!-- description-end -->
 
 <!-- maven-start -->
