@@ -3,9 +3,15 @@ package net.darkhax.ironwolfarmor.common;
 import net.darkhax.bookshelf.common.api.registry.ContentProvider;
 import net.darkhax.bookshelf.common.impl.registry.adapter.CreativeModeTabAdapter;
 import net.darkhax.bookshelf.common.impl.registry.adapter.ItemRegistryAdapter;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
 
 public class Content implements ContentProvider {
+
+    public static final TagKey<Item> NEW_WOLF_ARMORS = TagKey.create(Registries.ITEM, IronWolfArmor.id("new_wolf_armors"));
+    public static final TagKey<Item> ABSORBS_WOLF_DAMAGE = TagKey.create(Registries.ITEM, IronWolfArmor.id("absorbs_wolf_damage"));
 
     public static final WolfArmorMaterial LEATHER = WolfArmorMaterial.create("leather", 3, 0, 0, 15, 20, ItemTags.REPAIRS_LEATHER_ARMOR);
     public static final WolfArmorMaterial COPPER = WolfArmorMaterial.create("copper", 6, 0, 0, 8, 50, ItemTags.REPAIRS_COPPER_ARMOR);
