@@ -4,9 +4,9 @@ issueTrackerURL = "https://github.com/Darkhax-Minecraft/Iron-Wolf-Armor/issues"
 
 [[mods]]
 modId = "ironwolfarmor"
-version = "26.1.2.0"
+version = "26.2.0.0"
 displayName = "IronWolfArmor"
-updateJSONURL = "https://updates.blamejared.com/get?n=ironwolfarmor&gv=26.1.2&ml=neoforge"
+updateJSONURL = "https://updates.blamejared.com/get?n=ironwolfarmor&gv=26.2&ml=neoforge"
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/iron-wolf-armor"
 logoFile = "logo_ironwolfarmor.png"
 logoBlur = false
@@ -23,14 +23,14 @@ config = "ironwolfarmor.neoforge.mixins.json"
 [[dependencies.ironwolfarmor]]
 modId = "minecraft"
 type = "required"
-versionRange = "26.1"
+versionRange = "26.2"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.ironwolfarmor]]
 modId = "neoforge"
 type = "required"
-versionRange = "[26.1.0.1-beta,)"
+versionRange = "[26.2.0.1-beta,)"
 ordering = "NONE"
 side = "BOTH"
 
