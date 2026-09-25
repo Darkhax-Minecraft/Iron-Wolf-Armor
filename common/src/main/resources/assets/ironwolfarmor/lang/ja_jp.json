@@ -1,0 +1,11 @@
+{
+  "itemGroup.ironwolfarmor.tab": "Iron Wolf Armor",
+
+  "item.ironwolfarmor.leather_wolf_armor": "革のオオカミの鎧",
+  "item.ironwolfarmor.copper_wolf_armor": "銅のオオカミの鎧",
+  "item.ironwolfarmor.chainmail_wolf_armor": "チェーンのオオカミの鎧",
+  "item.ironwolfarmor.iron_wolf_armor": "鉄のオオカミの鎧",
+  "item.ironwolfarmor.gold_wolf_armor": "金のオオカミの鎧",
+  "item.ironwolfarmor.diamond_wolf_armor": "ダイヤモンドのオオカミの鎧",
+  "item.ironwolfarmor.netherite_wolf_armor": "ネザライトのオオカミの鎧"
+}
