@@ -1,0 +1,13 @@
+{
+  "itemGroup.ironwolfarmor.tab":"Iron Wolf Armor",
+
+  "item.ironwolfarmor.leather_wolf_armor":"Шкіряні вовчі обладунки",
+  "item.ironwolfarmor.copper_wolf_armor":"Мідні вовчі обладунки",
+  "item.ironwolfarmor.chainmail_wolf_armor":"Кольчужні вовчі обладунки",
+  "item.ironwolfarmor.iron_wolf_armor":"Залізні вовчі обладунки",
+  "item.ironwolfarmor.gold_wolf_armor":"Золоті вовчі обладунки",
+  "item.ironwolfarmor.diamond_wolf_armor":"Діамантові вовчі обладунки",
+  "item.ironwolfarmor.netherite_wolf_armor":"Незеритові вовчі обладунки",
+  "modmenu.descriptionTranslation.ironwolfarmor": "Дає вашому вірному напарнику захист з новими рівнями обладунків, на які він заслуговує!",
+  "fml.menu.mods.info.description.ironwolfarmor": "Дає вашому вірному напарнику захист з новими рівнями обладунків, на які він заслуговує!"
+}
